@@ -8,7 +8,7 @@ public class track : MonoBehaviour {
 
 	ARMarker[] markers;
 	ARMarker myMarker;
-	GameObject t1=new GameObject();
+	GameObject t1 = new GameObject();
 	List<Vector3> posQ=new List<Vector3>();
 	List<Vector4> rotQ=new List<Vector4>();
 	public int filterQueueSize;
